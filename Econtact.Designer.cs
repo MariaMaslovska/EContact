@@ -314,6 +314,8 @@
             this.Name = "Econtact";
             this.Text = "EContact";
             this.Load += new System.EventHandler(this.Econtact_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Econtact_MouseDown);
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Econtact_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.dgvContactList)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
